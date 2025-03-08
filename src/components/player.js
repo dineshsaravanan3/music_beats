@@ -71,6 +71,7 @@ function Player() {
       <div className="box">
         <div className="aligner">
         <h2>Playing song!</h2>
+        <h2>{playersong[currentsong].songurl}</h2>
         <h2>{playersong[currentsong].songname}</h2>
         <audio
           ref={isreference}
