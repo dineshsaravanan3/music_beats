@@ -55,11 +55,11 @@ function Player() {
   const playersong = [
     {
       songname: "Pretty's On The Inside",
-      songurl: "/songs/Chloe Adams - Pretty's On The Inside (Nightcore).mp3",
+      songurl: "./public/songs/Chloe Adams - Pretty's On The Inside (Nightcore).mp3",
     },
     {
       songname: "Brown Eyed Girl",
-      songurl: "/songs/Van Morrison - Brown Eyed Girl (Official Audio).mp3",
+      songurl: "./public/songs/Van Morrison - Brown Eyed Girl (Official Audio).mp3",
     },
   ];
   return (
