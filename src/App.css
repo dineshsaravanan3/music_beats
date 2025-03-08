@@ -1,0 +1,174 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-3');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/bg-main/night.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Minecraft', sans-serif;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); 
+  border: 8px solid #3E3E3E;
+  box-shadow: 10px 10px 0px #222222; 
+  border-radius: 0; 
+  image-rendering: pixelated; 
+}
+
+h1 {
+  font-size: 3rem;
+  color: #FFD700; 
+  text-shadow: 4px 4px 0px #000; 
+}
+
+h2 {
+  font-size: 2rem;
+  color: #FFD700; 
+  text-shadow: 3px 3px 0px #000;
+}
+
+.box {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: rgba(139, 139, 139, 0.8);
+  border: 6px solid #3E3E3E; 
+  box-shadow: 6px 6px 0px #222222; 
+  border-radius: 0; 
+  text-align: center;
+  image-rendering: pixelated; 
+}
+
+.minecraft-font {
+  font-family: 'Minecraft', sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 0px #000; 
+}
+
+.minecraft-btn {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  background-color: #4CAF50; 
+  color: white;
+  padding: 12px 24px;
+  border: 4px solid #2E7D32; 
+  box-shadow: 4px 4px 0 #1B5E20; 
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.minecraft-btn:hover {
+  background-color: #388E3C; 
+  box-shadow: 2px 2px 0 #1B5E20; 
+}
+
+.minecraft-btn:active {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+}
+
+.minecraft-btn-pause {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  background-color: #f34021; 
+  color: white;
+  padding: 12px 24px;
+  border: 4px solid #d05736;
+  box-shadow: 4px 4px 0 #e54f0a;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.minecraft-btn-pause:hover {
+  background-color: #ff0000; 
+  box-shadow: 2px 2px 0 #e16010;
+}
+
+.minecraft-btn-pause:active {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+}
+
+.minecraft-btn-alt {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  background-color: #dad348; 
+  color: white;
+  padding: 12px 24px;
+  border: 4px solid #ecb023; 
+  box-shadow: 4px 4px 0 #e7aa12; 
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.minecraft-btn-alt:hover {
+  background-color: #c0a020; 
+  box-shadow: 2px 2px 0 #e7aa12;
+}
+
+.minecraft-btn-alt:active {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  background: #4CAF50;
+  border: 4px solid #2e7d32; 
+  box-shadow: inset 0 0 4px #000; 
+  outline: none;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  background-color: #a88125; 
+  border: 3px solid #2e7d32; 
+  cursor: pointer;
+  image-rendering: pixelated; 
+}
+
+.slider::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #2e7d32;
+  cursor: pointer;
+  image-rendering: pixelated;
+}
+
+.slider::-ms-thumb {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #2e7d32;
+  cursor: pointer;
+  image-rendering: pixelated;
+}
