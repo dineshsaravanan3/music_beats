@@ -16,9 +16,10 @@ function Player() {
   React.useEffect(() => {
     if (isreference.current) {
       isreference.current.load();
-      isreference.current.play();
+      // Don't autoplay, wait for user interaction
     }
   }, [currentsong]);
+  
 
   const handleplaypause = () => {
     if (isreference.current.paused) {
@@ -55,11 +56,11 @@ function Player() {
   const playersong = [
     {
       songname: "Pretty's On The Inside",
-      songurl: "./public/songs/Chloe Adams - Pretty's On The Inside (Nightcore).mp3",
+      songurl: "/songs/Chloe Adams - Pretty's On The Inside (Nightcore).mp3",
     },
     {
       songname: "Brown Eyed Girl",
-      songurl: "./public/songs/Van Morrison - Brown Eyed Girl (Official Audio).mp3",
+      songurl: "/songs/Van Morrison - Brown Eyed Girl (Official Audio).mp3",
     },
   ];
   return (
