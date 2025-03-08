@@ -56,11 +56,11 @@ function Player() {
   const playersong = [
     {
       songname: "Pretty's On The Inside",
-      songurl: "/songs/Chloe Adams - Pretty's On The Inside (Nightcore).mp3",
+      songurl: process.env.PUBLIC_URL +"/songs/Chloe Adams - Pretty's On The Inside (Nightcore).mp3",
     },
     {
       songname: "Brown Eyed Girl",
-      songurl: "/songs/Van Morrison - Brown Eyed Girl (Official Audio).mp3",
+      songurl: process.env.PUBLIC_URL +"/songs/Van Morrison - Brown Eyed Girl (Official Audio).mp3",
     },
   ];
   return (
@@ -75,8 +75,8 @@ function Player() {
           onTimeUpdate={handleTimeUpdate}
           onLoadedMetadata={handleLoadedMetadata}
         >
-          <source src={playersong[currentsong].songurl}></source>
-        </audio>
+<source src={playersong[currentsong].songurl} />
+</audio>
         <input
           type="range"
           min="0"
